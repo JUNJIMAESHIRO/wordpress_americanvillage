@@ -8,9 +8,13 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="top_visual_guideline">
-  
+  <div class="mian_visual_guideline">
+    <div class="main_visual">
+      <img src="./" alt="AmericanVillageの写真">
+      <div class="main_radius_box">
 
+      </div>
+    </div>
   </div>  
 </body>
 </html>
