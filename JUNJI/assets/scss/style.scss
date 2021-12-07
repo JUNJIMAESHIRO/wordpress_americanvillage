@@ -1,1 +1,9 @@
-.main_visual_guideline
+.main_visual_guideline{
+  max-width: 1200px;
+  
+  color: black;
+  .main_visual{
+    max-width: 900px;
+
+  }
+}

@@ -11,8 +11,11 @@
   <div class="mian_visual_guideline">
     <div class="main_visual">
       <img src="./" alt="AmericanVillageの写真">
-      <div class="main_radius_box">
+      <div class="main_sub_box1">
 
+      </div>
+      <div class="main_sub_box2">
+        
       </div>
     </div>
   </div>  

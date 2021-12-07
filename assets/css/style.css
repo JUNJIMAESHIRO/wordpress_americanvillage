@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.main_visual_guideline {
+  max-width: 1200px;
+  color: black;
+}
+
+.main_visual_guideline .main_visual {
+  max-width: 900px;
+}
+/*# sourceMappingURL=style.css.map */
