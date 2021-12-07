@@ -2,9 +2,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -12,7 +12,7 @@ header {
   position: relative;
 }
 
-.header-right ul {
+.header_right ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,9 +22,18 @@ header {
   font-size: 20px;
 }
 
+.header_right li {
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
 footer {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+footer p {
+  padding: 40px;
 }
 /*# sourceMappingURL=tomori.css.map */
