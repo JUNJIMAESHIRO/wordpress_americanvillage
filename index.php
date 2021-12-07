@@ -7,6 +7,11 @@
   <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
+  
+ 
+=======
+>>>>>>> 6952906219b88419d337c1c7276a1286f0f31711
   
 </body>
 </html>
