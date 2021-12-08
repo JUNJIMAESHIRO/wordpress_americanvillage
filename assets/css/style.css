@@ -51,6 +51,9 @@
   margin-bottom: 50px;
   position: relative;
 }
+.item:hover{
+  box-shadow: 2px 2px 4px;
+}
 
 .item :nth-of-type(3n) {
   margin: 0;
