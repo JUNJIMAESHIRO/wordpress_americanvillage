@@ -55,6 +55,10 @@
   }
 }
 
+.main_textcontent{
+  margin: 20px 0;
+}
+
 @media screen and (max-width: 767px) {
   .main_visual_guideline .main_textcontent {
     text-align: center;
