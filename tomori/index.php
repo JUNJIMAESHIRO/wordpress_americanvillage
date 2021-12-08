@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-   <!-- ハンバーガーメニューはこちら -->
+
    <div class="hamburger">
         <span class="pate"></span>
       </div>
@@ -31,4 +31,4 @@
 
 </html>
 </body>
-</html>
+</html> -->

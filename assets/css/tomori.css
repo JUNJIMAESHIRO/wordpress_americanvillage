@@ -43,10 +43,10 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  .header_right ul {
+  header {
     display: none;
   }
-  header {
+  .header_right ul {
     display: none;
   }
   footer p {
