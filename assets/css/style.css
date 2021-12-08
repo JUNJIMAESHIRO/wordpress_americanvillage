@@ -1,3 +1,4 @@
+/* Junji main＿visual */
 .main_visual_guideline {
   max-width: 1152px;
   margin: 0 auto;
@@ -11,19 +12,63 @@
   margin-top: 115px;
 }
 
-.main_visual_guideline .main_visual .main_sub_box1,
-.main_visual_guideline .main_visual .main_sub_box2 {
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_visual {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_img {
+    width: 100%;
+  }
+}
+
+.main_visual_guideline .main_sub_box1,
+.main_visual_guideline .main_sub_box2 {
   position: absolute;
 }
 
-.main_visual_guideline .main_visual .main_sub_box1 {
+.main_visual_guideline .main_sub_box1 {
   top: -100px;
   left: -80px;
 }
 
-.main_visual_guideline .main_visual .main_sub_box2 {
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_sub_box1 {
+    position: static;
+    text-align: center;
+  }
+}
+
+.main_visual_guideline .main_sub_box2 {
   top: 236px;
   left: 589px;
+}
+
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_sub_box2 {
+    top: 275px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_textcontent {
+    text-align: center;
+  }
+}
+
+.main_visual_guideline .main_textcontent .sp_br {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .main_visual_guideline .main_textcontent .sp_br {
+    display: block;
+  }
 }
 /* Erina blog */
 .content {
@@ -50,6 +95,9 @@
   margin-right: 20px;
   margin-bottom: 50px;
   position: relative;
+}
+.item:hover{
+  box-shadow: 2px 2px 4px;
 }
 
 .item :nth-of-type(3n) {
