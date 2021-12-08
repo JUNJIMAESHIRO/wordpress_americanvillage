@@ -1,0 +1,23 @@
+.main_visual_guideline{
+  max-width: 1152px;
+  margin: 0 auto;
+  .main_visual{
+    width: 1024px;
+    height: 448px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 115px;
+    .main_sub_box1,
+    .main_sub_box2{
+      position: absolute;
+    }
+    .main_sub_box1{
+      top: -100px;
+      left: -80px;
+    }
+    .main_sub_box2{
+      top: 236px;
+      left: 589px;
+    }
+  }
+}
