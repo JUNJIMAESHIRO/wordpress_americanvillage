@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -18,4 +18,4 @@
                 <li>Menu04</li>
             </ul>
         </div>
-    </header>
+    </header> -->

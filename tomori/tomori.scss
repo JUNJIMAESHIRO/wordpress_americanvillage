@@ -1,3 +1,7 @@
+body{
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 header{
     display: flex;
     justify-content: right;
@@ -27,4 +31,13 @@ footer{
 
 footer p{
     padding: 40px;
+}
+
+@media screen and (max-width:768px) {
+  header{
+    
+  }
+  footer p{
+    padding: 25px;
+  }
 }
