@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,sBAAsB,CAAA;EACpB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,KAAK;CAKb;;AAPD,AAGE,sBAHoB,CAGpB,YAAY,CAAA;EACV,SAAS,EAAE,KAAK;CAEjB",
     "sources": [
-        "../scss/style.scss"
+        "../../JUNJI/assets/scss/style.scss"
     ],
     "names": [],
     "file": "style.css"
