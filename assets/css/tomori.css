@@ -1,3 +1,8 @@
+@charset "UTF-8";
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,5 +40,17 @@ footer {
 
 footer p {
   padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .header_right ul {
+    display: none;
+  }
+  footer p {
+    padding: 25px;
+  }
 }
 /*# sourceMappingURL=tomori.css.map */
