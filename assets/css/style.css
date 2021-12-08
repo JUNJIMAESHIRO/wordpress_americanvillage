@@ -125,6 +125,7 @@
 
 .item .read_more:hover p {
   width: 100%;
+  transition: all .3s ease;
 }
 
 @media screen and (max-width: 768px) {
