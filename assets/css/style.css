@@ -124,10 +124,35 @@ header {
   font-size: 20px;
 }
 
+/* ヘッダーメニューの下線アニメーション */
 .header_right li {
   margin-right: 30px;
   margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
 }
+
+.header_right li::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+
+.header_right li:hover::after{
+  /* color: #c3974a;
+  transition: all .3s ease; */
+  transform-origin: right top;
+  transform: scale(1, 1);
+}
+/* ヘッダーメニューの下線アニメーション終了 */
 
 footer {
   background-color: black;
