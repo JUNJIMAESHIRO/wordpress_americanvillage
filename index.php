@@ -9,23 +9,39 @@
   <title>american_village</title>
 </head>
 <body>
-    <!-- Tomori header -->
-<header>
-        <div class="header_right">
-            <ul>
-                <li>Menu01</li>
-                <li>Menu02</li>
-                <li>Menu03</li>
-                <li>Menu04</li>
-            </ul>
-        </div>
-    </header>
-    <!-- tomori headerここまで -->
-
-  <!-- Erina blog -->
+<!-- Tomori header -->
+  <header>
+    <div class="header_right">
+      <ul>
+        <li>Menu01</li>
+        <li>Menu02</li>
+        <li>Menu03</li>
+        <li>Menu04</li>
+      </ul>
+    </div>
+  </header>
+<!-- tomori headerここまで -->
+<!-- Junji main_visual -->
+  <div class="main_visual_guideline">
+    <div class="main_visual">
+      <div class="main_sub_box1">
+        <img src="./assets/img/logo.png" alt="">
+      </div>
+      <picture>
+        <source media="(max-width: 767px)" srcset="./assets/img/visual_1_sp.png">
+        <img src="./assets/img/visual_1_pc.png" alt="AmericanVillageの写真" class="main_img">
+      </picture>
+      <div class="main_sub_box2">
+        <img src="./assets/img/visual_text_pc.png" alt="">
+      </div>
+    </div>
+    <p class="main_textcontent">進化し続ける「街」<br class="sp_br">アメリカンビレッジマガジン</p>
+  </div>
+<!-- Junji main_visualここまで -->
+<!-- Erina blog -->
 <div class="content">
-<h2>Latest Article</h2>
-<ul class="container">
+  <h2>Latest Article</h2>
+  <ul class="container">
     <li class="item">
         <img src="assets/img/post_img_1.png" alt=""><br>
         <time>2018-05-20</time>
@@ -75,8 +91,8 @@
             <p></p>
         </div>
     </li>
-</ul>
-</div>
+  </ul>
+  </div>
   <!-- Erina blog -->
 
   <!-- Tomori footer -->
