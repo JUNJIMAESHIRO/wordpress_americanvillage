@@ -94,4 +94,61 @@
   }
 }
 /* Erina blog */
+
+/* Tomori */
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 150px;
+  position: relative;
+}
+
+.header_right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+.header_right li {
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .header_right ul {
+    display: none;
+  }
+  footer p {
+    padding: 25px;
+  }
+}
+/* Tomori　ここまで */
 /*# sourceMappingURL=style.css.map */
