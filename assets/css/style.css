@@ -171,7 +171,7 @@ header {
   align-items: center;
   padding: 15px 0;
   position: relative;
-  width: 1024px;
+  /* width: 1024px; */
 }
 
 .header_right ul {
@@ -231,11 +231,24 @@ footer p {
   }
 
   header {
-    display: none;
+    /* display: none; */
     width: auto;
   }
   .header_right ul {
-    display: none;
+    /* display: none; */
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+
+  .header_right li {
+    display: block;
   }
   footer{
     width: auto;
@@ -267,7 +280,7 @@ footer p {
   left: 14px;
   height: 3px;
   border-radius: 1px;
-
+  width: 45%;
   
 }
 
