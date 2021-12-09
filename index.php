@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>american_village</title>
-</head>
-<body>
 <!-- Tomori header -->
-  <header>
-    <div class="header_right">
-      <ul>
-        <li>Menu01</li>
-        <li>Menu02</li>
-        <li>Menu03</li>
-        <li>Menu04</li>
-      </ul>
-    </div>
-  </header>
+  <?php get_header();?>
 <!-- tomori headerここまで -->
 <!-- Junji main_visual -->
   <div class="main_visual_guideline">
@@ -96,9 +76,4 @@
   <!-- Erina blog -->
 
   <!-- Tomori footer -->
-  <footer>
-    <p>Copyright <small>&copy;</small> JUNJI ERINA TOMORI Inc.</p>
-  </footer>
-  <!-- Tomori footer　ここまで -->
-</body>
-</html>
+  <?php get_footer(); ?>
