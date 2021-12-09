@@ -99,6 +99,7 @@
   margin: 10px;
   margin-bottom: 50px;
   position: relative;
+  transition: all 0.5s ease;
 }
 .item:hover {
   box-shadow: 2px 2px 4px;
@@ -126,6 +127,10 @@
 .item .read_more:hover p {
   width: 100%;
   transition: all 0.3s ease;
+}
+
+.item .read_more:hover::before{
+  box-shadow: ;
 }
 
 @media screen and (max-width: 768px) {
