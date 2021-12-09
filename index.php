@@ -31,7 +31,7 @@
           <?php the_post_thumbnail(); ?>
           <date><?php echo get_the_date(); ?></date>
           <p><?php the_title(); ?></p>
-          <div class="read_more">READ MORE
+          <div class="read_more"><a href="<?php the_permalink(); ?>">READ MORE</a>  
             <p></p>
           </div>
         </li>

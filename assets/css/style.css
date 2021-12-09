@@ -116,6 +116,11 @@
   cursor: pointer;
 }
 
+.item .read_more a {
+  text-decoration: none;
+  color: black;
+}
+
 .item .read_more p {
   border-bottom: solid 1px black;
   width: 30%;
