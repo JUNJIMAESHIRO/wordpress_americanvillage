@@ -30,7 +30,9 @@
           <?php the_post_thumbnail(); ?>
           <date><?php echo get_the_date(); ?></date>
           <p><?php the_title(); ?></p>
-          <div class="read_more">READ MORE</div>
+          <div class="read_more">READ MORE
+          <p></p></div>
+          
         </li>
 
 <?php endwhile;
