@@ -5,7 +5,6 @@
 <div class="main_visual_guideline">
   <div class="main_visual">
     <div class="main_sub_box1">
-
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="AmericanVillage_logo">
     </div>
     <picture>
@@ -14,7 +13,6 @@
     </picture>
     <div class="main_sub_box2">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_pc.png" alt="">
-
     </div>
   </div>
   <p class="main_textcontent">進化し続ける「街」<br class="sp_br">アメリカンビレッジマガジン</p>
