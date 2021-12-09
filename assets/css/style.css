@@ -151,6 +151,7 @@
 /* Tomori */
 body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  min-width: 1152px;
 }
 
 header {
@@ -212,7 +213,6 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  width: 1024px;
   margin: 0 auto;
 }
 
@@ -221,6 +221,10 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    min-width: 0;
+  }
+
   header {
     display: none;
     width: auto;
@@ -237,4 +241,30 @@ footer p {
   }
 }
 /* Tomori　ここまで */
+
+/* ハンバーガーメニュー */
+.hamburger{
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.hamburger .hamburger-area{
+  transition: all 4s;
+}
+
+.hamburger span{
+  display: inline-block;
+  transition: all 4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 1px;
+
+  
+}
+
+
 /*# sourceMappingURL=style.css.map */
