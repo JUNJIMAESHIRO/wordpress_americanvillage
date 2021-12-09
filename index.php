@@ -11,9 +11,10 @@
       <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/visual_1_sp.png">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_1_pc.png" alt="AmericanVillageの写真" class="main_img">
     </picture>
-    <div class="main_sub_box2">
+    <picture class="main_sub_box2">
+      <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_sp.png">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_pc.png" alt="">
-    </div>
+    </picture>
   </div>
   <p class="main_textcontent">進化し続ける「街」<br class="sp_br">アメリカンビレッジマガジン</p>
 </div>
