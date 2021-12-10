@@ -289,5 +289,10 @@ footer p {
   
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  width /***/:auto;
+  }
 
 /*# sourceMappingURL=style.css.map */
