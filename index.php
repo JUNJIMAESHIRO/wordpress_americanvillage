@@ -13,7 +13,7 @@
     </picture>
     <picture class="main_sub_box2">
       <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_sp.png">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_pc.png" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_pc.png" alt="" class="sub_box2">
     </picture>
   </div>
   <p class="main_textcontent">進化し続ける「街」<br class="sp_br">アメリカンビレッジマガジン</p>
