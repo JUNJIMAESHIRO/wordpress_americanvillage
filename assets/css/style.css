@@ -34,6 +34,7 @@
 .main_visual_guideline .main_sub_box1 {
   top: -100px;
   left: -80px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
