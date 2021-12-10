@@ -34,6 +34,7 @@
 .main_visual_guideline .main_sub_box1 {
   top: -100px;
   left: -80px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -335,6 +336,7 @@ top: -9px;
   transform: rotate(45deg) translate(5px,5px);
 }
 
+<<<<<<< HEAD
 .hamburger.on .pate::after{
   transform: rotate(-45deg) translate(7px,-8px);
 }
@@ -345,10 +347,6 @@ top: -9px;
   }
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-  width *:auto;
-  /* } */ 
+
 
 /*# sourceMappingURL=style.css.map */
