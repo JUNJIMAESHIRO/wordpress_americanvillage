@@ -12,13 +12,18 @@
 
 <body>
     <header>
-    <div class="hamburger"><div class="hamburger-area"><span></span><span></span><span></span></div></div>
+    <div class="hamburger">
+        <span class="pate"></span>
+      </div>
+    </div>
     <div class="header_right">
-        <ul>
+        <nav>
+        <ul class="nav_list">
             <li>Menu01</li>
             <li>Menu02</li>
             <li>Menu03</li>
             <li>Menu04</li>
         </ul>
+        </nav>
     </div>
     </header>

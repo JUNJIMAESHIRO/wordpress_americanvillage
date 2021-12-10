@@ -134,9 +134,9 @@
   transition: all 0.3s ease;
 }
 
-.item .read_more:hover::before{
-  box-shadow: ;
-}
+/* .item .read_more:hover::before{ */
+  /* box-shadow: ; */
+/* } */
 
 @media screen and (max-width: 768px) {
   .content {
@@ -235,13 +235,31 @@ footer p {
     min-width: 0;
   }
 
+  /* ハンバーガーメニューの中身 */
+
+.header-right{
+  width: 10%;
+  height: 100vh;
+  background-color: gray;
+  text-align: center;
+  margin-top: 100px;
+  transition: all 3s ease;
+  transform: translateX(100%);
+  opacity:1;
+}
+
+.header-right.active{
+  transition: all 3s ease;
+  opacity:1;
+  transform: translateX(100%);
+}
+
   header {
-    /* display: none; */
     width: auto;
   }
   .header_right ul {
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
     left: 0;
     width: 100%;
     text-align: center;
@@ -264,37 +282,73 @@ footer p {
   footer p {
     padding: 25px;
   }
+
+.hamburger{
+  margin-right: 10%;
+  z-index: 1;
+}
 }
 /* Tomori　ここまで */
 
 /* ハンバーガーメニュー */
 .hamburger{
+  width: 28px;
+  height: 30px;
+}
+.hamburger .pate,
+.hamburger .pate::before,
+.hamburger .pate::after{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border-radius: 2px;
+  display: block;
+  transition: all .5s ease;
+}
+
+.hamburger .pate{
   position: relative;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
+  top: calc(50% - 2px);
 }
 
-.hamburger .hamburger-area{
-  transition: all 4s;
-}
-
-.hamburger span{
-  display: inline-block;
-  transition: all 4s;
+.hamburger .pate::before,
+.hamburger .pate::after{
+  content: '';
   position: absolute;
-  left: 14px;
-  height: 3px;
-  border-radius: 1px;
-  width: 45%;
-  
 }
 
-img {
+.hamburger .pate::before{
+top: -9px;
+}
+
+.hamburger .pate::after{
+  top: 9px
+}
+
+/* ハンバーガーの変更をする部分 */
+.hamburger.on .pate{
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hamburger.on .pate::before{
+  transform: rotate(45deg) translate(5px,5px);
+}
+
+.hamburger.on .pate::after{
+  transform: rotate(-45deg) translate(7px,-8px);
+}
+
+@media screen and (min-width: 767px) {
+  .hamburger{
+    display: none;
+  }
+}
+
+/* img {
   max-width: 100%;
   height: auto;
-  width /***/:auto;
-  }
+  width *:auto;
+  /* } */ 
 
 /*# sourceMappingURL=style.css.map */
