@@ -116,6 +116,11 @@
   cursor: pointer;
 }
 
+.item .read_more a {
+  text-decoration: none;
+  color: black;
+}
+
 .item .read_more p {
   border-bottom: solid 1px black;
   width: 30%;
@@ -156,6 +161,7 @@
 /* Tomori */
 body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  min-width: 1152px;
 }
 
 header {
@@ -170,7 +176,7 @@ header {
   align-items: center;
   padding: 15px 0;
   position: relative;
-  width: 1024px;
+  /* width: 1024px; */
 }
 
 .header_right ul {
@@ -217,7 +223,6 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  width: 1024px;
   margin: 0 auto;
 }
 
@@ -226,12 +231,29 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    min-width: 0;
+  }
+
   header {
-    display: none;
+    /* display: none; */
     width: auto;
   }
   .header_right ul {
-    display: none;
+    /* display: none; */
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+
+  .header_right li {
+    display: block;
   }
   footer{
     width: auto;
@@ -242,4 +264,30 @@ footer p {
   }
 }
 /* Tomori　ここまで */
+
+/* ハンバーガーメニュー */
+.hamburger{
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.hamburger .hamburger-area{
+  transition: all 4s;
+}
+
+.hamburger span{
+  display: inline-block;
+  transition: all 4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 1px;
+  width: 45%;
+  
+}
+
+
 /*# sourceMappingURL=style.css.map */
