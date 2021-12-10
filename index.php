@@ -7,13 +7,10 @@
     <div class="main_sub_box1">
       <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="AmericanVillage_logo">
     </div>
-    <?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
-    <!-- <picture>
-      <source media="(max-width: 767px)" srcset="<?php //echo get_template_directory_uri(); 
-                                                  ?>/assets/img/visual_1_sp.png">
-      <img src="<?php //echo get_template_directory_uri(); 
-                ?>/assets/img/visual_1_pc.png" alt="AmericanVillageの写真" class="main_img">
-    </picture> -->
+    <picture>
+      <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/visual_1_sp.png">
+      <img src="<?php echo get_template_directory_uri();?>/assets/img/visual_1_pc.png" alt="AmericanVillageの写真" class="main_img">
+    </picture>
     <picture class="main_sub_box2">
       <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_sp.png">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/visual_text_pc.png" alt="" class="sub_box2">

@@ -336,7 +336,6 @@ top: -9px;
   transform: rotate(45deg) translate(5px,5px);
 }
 
-<<<<<<< HEAD
 .hamburger.on .pate::after{
   transform: rotate(-45deg) translate(7px,-8px);
 }
@@ -347,6 +346,10 @@ top: -9px;
   }
 }
 
-
+.sub_box2{
+  max-width: 100%;
+  height: auto;
+  width /***/:auto;
+  }
 
 /*# sourceMappingURL=style.css.map */
